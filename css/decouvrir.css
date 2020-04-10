@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.segoe {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.customTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px 43px 0px 0px;
+    color: #000000a6;
+    margin-bottom: 0px;
+    width: 40%;
+    padding-left: 0;
+}
+
+.customContent {
+    border-radius: 6px;
+    margin-bottom: none;
+    width: 96%;
+    padding-left: 0;
+}
+
+.astucesTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+    width: 40%;
+}
+
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.astucesContent {
+    border-radius: 6px;
+    margin-bottom: none;
+    color: black;
+    width: 96%;
+    padding-left: 13px;
+    font-size: 17px;
+}
