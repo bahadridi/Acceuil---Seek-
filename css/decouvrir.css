@@ -23,9 +23,9 @@ body {
 }
 
 .astucesTitle {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 0px;
-    width: 40%;
+    font-weight: 400;
 }
 
 .impact {
@@ -35,8 +35,77 @@ body {
 .astucesContent {
     border-radius: 6px;
     margin-bottom: none;
-    color: black;
+    color: #0E1D36;
     width: 96%;
     padding-left: 13px;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* hr css in the middle  */
+
+.tab {
+    font-size: 18px;
+    color: #0E1D36;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.separator::before, .separator::after {
+    content: ' ';
+    flex: 2;
+    border-bottom: 1px solid white;
+}
+.separator::before {
+    margin-right: .30em !important;
+}
+.separator::after {
+    margin-left: .30em !important;
+}
+
+
+ .fonts {
+    font-family: 'Poppins', sans-serif;
+ }
+ .separators {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.separators::before, .separators::after {
+    content: ' ';
+    flex: 2;
+    border-bottom: 1px solid lightgrey;
+}
+.separators::before {
+    margin-right: .30em !important;
+}
+.separators::after {
+    margin-left: .30em !important;
+}
+
+/* table css */
+table, th, td, tr {
+    border: solid 1px #0E1D36;
+    padding: 10px;
+  }
+table {
+    width: fit-content;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.mt {
+    margin-left: 100px !important;
+}
+.mt1 {
+    margin-left: 50px !important;
+
 }
