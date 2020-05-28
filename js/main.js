@@ -320,7 +320,7 @@
                  $('#signs').removeClass('upload').addClass('uploads')
              }
              if ($(this).scrollTop() < 200) {
-                 $('.logohome img').attr('src', 'assets/images/logo_white.png');
+                 $('.logohome img').attr('src', 'assets/images/logo_seekmake.png');
                  $('#signs').removeClass('uploads').addClass('upload')
                  $('#uploads').removeClass('uploads signs').addClass('upload sign')
 

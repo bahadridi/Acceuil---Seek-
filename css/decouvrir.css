@@ -5,6 +5,13 @@ body {
 .segoe {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
+.land{
+    background: url(../assets/images/travelhome.jpg) ;
+    width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 .customTitle {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -68,21 +75,33 @@ body {
     margin-left: .30em !important;
 }
 
+.fonty{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
 
  .fonts {
     font-family: 'Poppins', sans-serif;
+    color: #0E1D36;
+    font-size: 18px;
+
+ }
+ .fontss {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
  }
  .separators {
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
 }
 
 .separators::before, .separators::after {
     content: ' ';
     flex: 2;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 2px solid #0E1D36;
 }
 .separators::before {
     margin-right: .30em !important;
@@ -90,6 +109,8 @@ body {
 .separators::after {
     margin-left: .30em !important;
 }
+
+
 
 /* table css */
 table, th, td, tr {
@@ -103,9 +124,43 @@ table {
     padding-top: 5px;
 }
 .mt {
-    margin-left: 100px !important;
+    margin-left: 80px !important;
 }
 .mt1 {
     margin-left: 50px !important;
 
 }
+.navbar-nav>.nav-item>.nav-link {
+
+    color: #0E1D36 !important;
+    font-weight: bold !important;
+}
+.subheadings {
+    color: #0E1D36;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+.subheadings span {
+    color: #0E1D36;
+    position: relative;
+}
+.subheadings span:after {
+    position: absolute;
+    top: 49%;
+    right: -170px;
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #0E1D36;
+}
+.mT {
+    margin-top: 80px !important;
+}
+.imgs{
+    max-width: 45px;
+    position: relative;
+}
+
