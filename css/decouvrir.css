@@ -5,8 +5,9 @@ body {
 .segoe {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
-.land{
-    background: url(../assets/images/travelhome.jpg) ;
+
+.land {
+    background: url(../assets/images/travelhome.jpg);
     width: 100%;
     min-height: 600px;
     background-repeat: no-repeat;
@@ -49,6 +50,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* hr css in the middle  */
 
 .tab {
@@ -63,78 +65,91 @@ body {
     letter-spacing: 10px;
 }
 
-.separator::before, .separator::after {
+.separator::before,
+.separator::after {
     content: ' ';
     flex: 2;
     border-bottom: 1px solid white;
 }
+
 .separator::before {
     margin-right: .30em !important;
 }
+
 .separator::after {
     margin-left: .30em !important;
 }
 
-.fonty{
+.fonty {
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
 }
 
- .fonts {
+.fonts {
     font-family: 'Poppins', sans-serif;
     color: #0E1D36;
     font-size: 18px;
+}
 
- }
- .fontss {
+.fontss {
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 18px;
- }
- .separators {
+}
+
+.separators {
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 15px;
 }
 
-.separators::before, .separators::after {
+.separators::before,
+.separators::after {
     content: ' ';
     flex: 2;
     border-bottom: 2px solid #0E1D36;
 }
+
 .separators::before {
     margin-right: .30em !important;
 }
+
 .separators::after {
     margin-left: .30em !important;
 }
 
 
-
 /* table css */
-table, th, td, tr {
+
+table,
+th,
+td,
+tr {
     border: solid 1px #0E1D36;
     padding: 10px;
-  }
+}
+
 table {
     width: fit-content;
     font-size: 50px;
     font-weight: bold;
     padding-top: 5px;
 }
+
 .mt {
     margin-left: 80px !important;
 }
+
 .mt1 {
     margin-left: 50px !important;
-
 }
-.navbar-nav>.nav-item>.nav-link {
 
+.navbar-nav>.nav-item>.nav-link {
     color: #0E1D36 !important;
     font-weight: bold !important;
 }
+
 .subheadings {
     color: #0E1D36;
     font-weight: 400;
@@ -143,10 +158,12 @@ table {
     letter-spacing: 8px;
     margin-bottom: 20px;
 }
+
 .subheadings span {
     color: #0E1D36;
     position: relative;
 }
+
 .subheadings span:after {
     position: absolute;
     top: 49%;
@@ -156,11 +173,12 @@ table {
     height: 1px;
     background: #0E1D36;
 }
+
 .mT {
     margin-top: 80px !important;
 }
-.imgs{
+
+.imgs {
     max-width: 45px;
     position: relative;
 }
-
