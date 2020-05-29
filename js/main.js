@@ -326,6 +326,20 @@
 
              }
          })
+
+     $(window).scroll(function() {
+             if ($(this).scrollTop() > 200) {
+                 $('.logohomes img').attr('src', 'assets/images/logoseekmake.png');
+                 $('#uploads').removeClass('upload sign').addClass('uploads signs')
+                 $('#signs').removeClass('upload').addClass('uploads')
+             }
+             if ($(this).scrollTop() < 200) {
+                 $('.logohomes img').attr('src', 'assets/images/logowhite.png');
+                 $('#signs').removeClass('uploads').addClass('upload')
+                 $('#uploads').removeClass('uploads signs').addClass('upload sign')
+
+             }
+         })
          // function logResults(json) {
          //     console.log(json);
          // }

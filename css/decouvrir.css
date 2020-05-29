@@ -8,7 +8,7 @@ body {
 .land{
     background: url(../assets/images/travelhome.jpg) ;
     width: 100%;
-    min-height: 600px;
+    max-height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -77,13 +77,13 @@ body {
 
 .fonty{
     font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
  .fonts {
     font-family: 'Poppins', sans-serif;
     color: #0E1D36;
-    font-size: 18px;
+    font-size: 1.125rem;
 
  }
  .fontss {
@@ -101,7 +101,7 @@ body {
 .separators::before, .separators::after {
     content: ' ';
     flex: 2;
-    border-bottom: 2px solid #0E1D36;
+    border-bottom: 1px solid ;
 }
 .separators::before {
     margin-right: .30em !important;
