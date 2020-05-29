@@ -12766,7 +12766,7 @@ textarea.form-control {
 .ftco-counter .text span {
     display: block;
     font-size: 12px;
-    color: #0E1D36 ;
+    color: #0E1D36;
     margin-bottom: 10px;
     font-family: "Lora", Georgia, serif;
     text-transform: uppercase;
@@ -13472,12 +13472,6 @@ textarea.form-control {
     }
 }
 
-@media screen and ( min-width: 450px) {
-    .devis {
-        font-size: 25px !important;
-    }
-}
-
 .devis {
     margin-top: 10px !important;
     color: white !important;
@@ -13489,7 +13483,7 @@ textarea.form-control {
     padding-left: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    border-radius: 40px 40px 40px 40px ;
+    border-radius: 40px 40px 40px 40px;
 }
 
 .font {
@@ -13629,6 +13623,8 @@ header:after {
         transform: rotateZ(-4deg);
     }
 }
+
+
 /* index.html */
 
 headers {

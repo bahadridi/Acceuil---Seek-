@@ -82,13 +82,14 @@ body {
 
 .fonty {
     font-family: 'Open Sans', sans-serif;
-    font-size: 3.125rem;
+    font-size: 2.6rem;
 }
 
 .fonts {
     font-family: 'Poppins', sans-serif;
     color: #0E1D36;
     font-size: 1.125rem;
+    line-height: 2.5rem;
 }
 
 .fontss {
@@ -108,7 +109,7 @@ body {
 .separators::after {
     content: ' ';
     flex: 2;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
 }
 
 .separators::before {
