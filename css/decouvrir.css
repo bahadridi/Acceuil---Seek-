@@ -6,13 +6,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
-.land {
-    background: url(../assets/images/travelhome.jpg);
-    width: 100%;
-    max-height: auto;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+
 
 .customTitle {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -109,7 +103,7 @@ body {
 .separators::after {
     content: ' ';
     flex: 2;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid lightgrey;
 }
 
 .separators::before {
@@ -175,11 +169,4 @@ table {
     background: #0E1D36;
 }
 
-.mT {
-    margin-top: 80px !important;
-}
 
-.imgs {
-    max-width: 45px;
-    position: relative;
-}

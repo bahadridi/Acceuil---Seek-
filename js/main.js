@@ -315,12 +315,12 @@
 
      $(window).scroll(function() {
              if ($(this).scrollTop() > 200) {
-                 $('.logohome img').attr('src', 'assets/images/logo_seekmake.png');
+                 $('.logohome img').attr('src', 'assets/images/logofinal.png');
                  $('#uploads').removeClass('upload sign').addClass('uploads signs')
                  $('#signs').removeClass('upload').addClass('uploads')
              }
              if ($(this).scrollTop() < 200) {
-                 $('.logohome img').attr('src', 'assets/images/logo_seekmake.png');
+                 $('.logohome img').attr('src', 'assets/images/logofinal.png');
                  $('#signs').removeClass('uploads').addClass('upload')
                  $('#uploads').removeClass('uploads signs').addClass('upload sign')
 
@@ -329,7 +329,7 @@
 
      $(window).scroll(function() {
              if ($(this).scrollTop() > 200) {
-                 $('.logohomes img').attr('src', 'assets/images/logoseekmake.png');
+                 $('.logohomes img').attr('src', 'assets/images/logofinal.png');
                  $('#uploads').removeClass('upload sign').addClass('uploads signs')
                  $('#signs').removeClass('upload').addClass('uploads')
              }
