@@ -314,18 +314,18 @@
 
 
      $(window).scroll(function() {
-             if ($(this).scrollTop() > 200) {
-                 $('.logohome img').attr('src', 'assets/images/logofinal.png');
-                 $('#uploads').removeClass('upload sign').addClass('uploads signs')
-                 $('#signs').removeClass('upload').addClass('uploads')
-             }
-             if ($(this).scrollTop() < 200) {
-                 $('.logohome img').attr('src', 'assets/images/logofinal.png');
-                 $('#signs').removeClass('uploads').addClass('upload')
-                 $('#uploads').removeClass('uploads signs').addClass('upload sign')
+         if ($(this).scrollTop() > 200) {
+             $('.logohome img').attr('src', 'assets/images/logofinal.png');
+             $('#uploads').removeClass('upload sign').addClass('uploads signs')
+             $('#signs').removeClass('upload').addClass('uploads')
+         }
+         if ($(this).scrollTop() < 200) {
+             $('.logohome img').attr('src', 'assets/images/logofinal.png');
+             $('#signs').removeClass('uploads').addClass('upload')
+             $('#uploads').removeClass('uploads signs').addClass('upload sign')
 
-             }
-         })
+         }
+     })
 
      $(window).scroll(function() {
              if ($(this).scrollTop() > 200) {
@@ -367,10 +367,10 @@
  }
  if (getCookie("seekmaketoken") == null || getCookie("seekmaketoken") == "") {
      $(document).ready(function() {
-         $(".nav").append('<li class="nav-item"><a href="https://app.seekmake.com/login" id="uploads" class="upload sign "><span><i class="fa fa-user fa-lg"  ></i>    Se connecter</span></a></li>');
+         $(".nav").append('<li class="nav-item"><a href="https://app.seekmake.com/#/auth/login" id="uploads" class="upload sign "><span><i class="fa fa-user fa-lg"  ></i>    Se connecter</span></a></li>');
 
      });
  } else {
-     $(".nav").append('<li class="nav-item"><a href="https://app.seekmake.com/userdash" class="upload sign"><span><i class="fa fa-user fa-lg"></i>     Profile</span></a></li>');
-     $(".nav").append('<li class="nav-item"><a onclick="document.cookie=\'seekmaketoken=;domain=seekmake.com\'"href=https://app.seekmake.com/login?logout=true" class="upload sign"><span>  <i style="color:#011835;font-size: 25px;" class="fa fa-sign-out fa-lg"></i>  </span></a></li>');
+     $(".nav").append('<li class="nav-item"><a href="https://app.seekmake.com/#/user" class="upload sign"><span><i class="fa fa-user fa-lg"></i>     Profile</span></a></li>');
+     $(".nav").append('<li class="nav-item"><a onclick="document.cookie=\'seekmaketoken=;domain=seekmake.com\'"href=https://app.seekmake.com/#/auth/login?logout=true" class="upload sign"><span>  <i style="color:#011835;font-size: 25px;" class="fa fa-sign-out fa-lg"></i>  </span></a></li>');
  }
